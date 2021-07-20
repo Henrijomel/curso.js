@@ -1,14 +1,17 @@
-function trocar(){
-    if (document.querySelector("button").classList.contains("principal")){
-        document.querySelector("button").classList.remove("principal");
-        document.querySelector("button").classList.add("principal1");
-     
-    }
-    else{
-        document.querySelector("button").classList.remove("principal1");
-        document.querySelector("button").classList.add("principal"); 
-       
-    }
+function CorAzul(){
+    document.querySelector("#principal").classList.remove("Amarelo");
+    document.querySelector("#principal").classList.remove("Verde");
+    document.querySelector("#principal").classList.add("Azul");
+}
+function CorAmarelo() {
+    document.querySelector("#principal").classList.remove("Azul");
+    document.querySelector("#principal").classList.remove("Verde");
+    document.querySelector("#principal").classList.add("Amarelo");
+}
+function CorVerde() {
+    document.querySelector("#principal").classList.remove("Amarelo");
+    document.querySelector("#principal").classList.remove("Azul");
+    document.querySelector("#principal").classList.add("Verde");
 }
 
 

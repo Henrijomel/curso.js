@@ -50,5 +50,22 @@ main{
 }
 .exercicio2{
     margin-top: 20px;
+
+    
+}
+.exercicio2 h1{
     color: brown;
+}
+.preto{
+    background-color: black;
+    color: white;
+}
+.branco{
+    background-color: white;
+    color: black;
+}
+.imagem{
+    padding: 20px;
+    width: 400px;
+    height: 400px;
 }

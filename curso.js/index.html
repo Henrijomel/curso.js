@@ -9,9 +9,6 @@
 </head>
 <body >
     <main>
-        <span class="material-icons-outlined">
-            menu
-            </span>
         <div class="exercicio1">
             <h1 style="color: brown;">Exercicio1 (Adicionar Classes)</h1>
             <p>Neste Exercicio1 aprendemos como adicionar ou remover Classes em uma taag, usando o comando <strong>classList.Add ou classList.Remove <br><strong>Como mostra o exemplo abixo</strong>:</strong></p>
@@ -25,9 +22,26 @@
         </div>
         <div class="exercicio2">
             <h1>Exercicio2</h1>
-      
+            <p>Neste exercicio2 vamos aprender como verificar se na teag contem uma class usando o metodo contains e se tiver uma class activa podemos subistituir usando a condição if, ou seja vamos trocar a class que existente. <br> <strong>Me clique para ver a funcionar:</strong></p>
 
+            <button class="preto" onclick="trocar()">Clique</button>
+            <hr>
         </div>
+        <div>
+            <h1 class="Exercicio3">Exercicio3</h1>
+            <p>Neste <strong>Exercicio3</strong> vamos aprender como criar um função usando o comando <strong>function</strong> e como usar a mesma</p>
+            <p>Exemplo segue aqui em baixo:</p>
+            <h2 id="titulo">Principal</h2>
+            <input id="campo" type="text" name="email" value="Digite o seu email">
+            
+            <h1 id="MudarTitulo">Texto exemplo</h1>
+            <input type="text" name="email" id="texto" value="texto exemplo">
+            <h2>A soma vale: <input type="text" name="soma" id="soma" value="A soma de X e Y "></h2>
+        </div>
+        <img class="imagem" src="imagem/passaro.jpg" data-animal="Curuja">
+        <button onclick="TrocarAnimal('passaro.jpg', 'Curuja')">Curuja</button>
+        <button onclick="TrocarAnimal('zebra.jpg', 'Zebra')">Zebra</button>
+        <button onclick="NomeAnimal()">Qual é o animal?</button>
     </main>
 
 </body>
